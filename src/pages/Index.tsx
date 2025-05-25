@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -197,25 +196,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-      {/* Header */}
-      <div className="bg-white border-b shadow-sm">
-        <div className="max-w-6xl mx-auto px-4 py-6">
-          <div className="flex items-center gap-3">
-            <div className="p-2 bg-blue-600 rounded-lg">
-              <Shield className="h-6 w-6 text-white" />
-            </div>
-            <div>
-              <h1 className="text-3xl font-bold text-gray-900">VeriNews AI</h1>
-              <p className="text-gray-600">Advanced Fake News Detection System</p>
-            </div>
-            <div className="ml-auto flex items-center gap-2 text-sm text-gray-500">
-              <Clock className="h-4 w-4" />
-              <span>Real-time Analysis</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/* Main Analysis Section */}
         <Card className="p-6 mb-8">
