@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { 
@@ -21,7 +20,6 @@ const Navigation = () => {
     { title: 'Analyze', href: '/', description: 'AI-powered fake news detection' },
     { title: 'Trends', href: '/trends', description: 'Real-time misinformation tracking' },
     { title: 'Resources', href: '/resources', description: 'Fact-checking tools and guides' },
-    { title: 'About', href: '/about', description: 'Learn about our mission and technology' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
